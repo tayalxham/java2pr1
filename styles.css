@@ -1,11 +1,93 @@
-h1 {
-	background-color: ;
+/* 
+   TDH Book Club
+   Filename: styles.css
+ */
+html {
+   font-size: 16px;
 }
-h1, main {
-	text-align: center;
-	}
-footer { 
-	background-color: ;
-	color: ;
+
+/* skip navigation link */
+p.skipnavigation a {
+   position: absolute;
+   left: -10000px;
 }
-		
+
+/* site navigation bar */
+nav.sitenavigation {
+   color: ivory;
+   text-align: center;
+   background-color: #00008b;
+}
+nav.sitenavigation p {
+   margin: 0.3em 0.5em;
+   display: inline-block;
+   color: ivory;
+}
+nav.sitenavigation a:link {
+   text-decoration: none;
+   color: ivory;
+}
+nav.sitenavigation a:visited {
+   color: ivory;
+}
+nav.sitenavigation a:hover, nav.sitenavigation a:focus {
+   color: ivory;
+}
+
+
+/* main content */
+
+h2 {
+   padding: 0.4em 0.4em 0;
+   text-align: center;
+   font-family: Didot, Monospace, Times, serif;
+   font-size: 2em;
+   font-weight: 700;
+   background-color: #F5D0A9;
+   text-align: center;
+}
+h3 {
+   margin-top: 1.4em;
+   font-size: 1.6em;
+   font-family: Didot, Monospace, Times, serif;
+   font-weight: 700;
+   text-align: left;
+
+}
+h4 {
+   margin-top: 1.4em;
+   font-size: 1.6em;
+   font-family: Didot, Monospace, Times, serif;
+   font-weight: 700;
+   text-align: left;
+
+}
+p {
+   font-size: 1.3em;
+   line-height: 1.6em;
+   font-family: Didot, Monospace, Times, serif;
+   font-weight: 700;
+   text-align: left;
+}
+p.intro {
+   font-size: 1.3em;
+   line-height: 1.6em;
+   font-family: Didot, Monospace, Times, serif;
+   font-weight: 700;
+   text-align: center;
+}
+li {
+   font-size: 1.3em;
+   line-height: 1.6em;
+   font-family: Didot, Monospace, Times, serif;
+   
+}
+
+
+/* footer section */
+footer {
+   padding: 0.6em;
+   background-color: tan;
+   text-align: center;
+   font-weight: 700;
+}
